@@ -19,7 +19,7 @@ function Home() {
             </div>
             <div className="homecontent">
                 <h1>Welcome to our cozy little website!</h1>
-                <p>Your journey towards learning how S.T.O.P.S was created starts here. We hope that you have an enjoyable time here 
+                <p>Your journey towards learning how S.T.O.P.S was created starts here. We hope that you have an enjoyable time here and
                 hopefully learn more about how we created our project.</p>
                 <Link to="/portfolio/conception"><button>Begin Journey</button></Link>
             </div>
