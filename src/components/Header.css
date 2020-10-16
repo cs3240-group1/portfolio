@@ -1,0 +1,40 @@
+.mainheader {
+    background-color: #2A1F2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainheader .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.mainheader .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 250px;
+}
+
+.mainheader .logo h1 {
+    color: white;
+}
+
+.mainheader .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainheader .navbar a {
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.mainheader .navbar h1 {
+    font-size: 1em;
+    color: white;
+    font-weight: 400;
+}
