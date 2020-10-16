@@ -14,11 +14,11 @@ function App() {
       <main>
           <Switch>
               <Route path="/portfolio" component={Home} exact/>
-              <Route path="/portfolio/conception" component={Conception} />
-              <Route path="/portfolio/observation" component={Observation} />
-              <Route path="/portfolio/prototyping" component={Prototyping} />
-              <Route path="/portfolio/evaluation" component={Evaluation} />
-              <Route path="/portfolio/result" component={Result} />
+              <Route path="/portfolio/conception" component={Conception} exact/>
+              <Route path="/portfolio/observation" component={Observation} exact/>
+              <Route path="/portfolio/prototyping" component={Prototyping} exact/>
+              <Route path="/portfolio/evaluation" component={Evaluation} exact/>
+              <Route path="/portfolio/result" component={Result} exact/>
           </Switch>
       </main>
   );
