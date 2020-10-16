@@ -11,7 +11,7 @@ function Header() {
                 <h1>S.T.O.P.S</h1>
             </div>
             <div className="navbar">
-                <Link to=""><h1>Home</h1></Link>
+                <Link to="/"><h1>Home</h1></Link>
                 <Link to="/conception"><h1>Conception</h1></Link>
                 <Link to="/observation"><h1>Observation</h1></Link>
                 <Link to="/prototyping"><h1>Prototyping</h1></Link>

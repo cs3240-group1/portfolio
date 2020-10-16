@@ -13,12 +13,12 @@ function App() {
   return (
       <main>
           <Switch>
-              <Route path="" component={Home} exact/>
-              <Route path="/conception" component={Conception} exact/>
-              <Route path="/observation" component={Observation} exact/>
-              <Route path="/prototyping" component={Prototyping} exact/>
-              <Route path="/evaluation" component={Evaluation} exact/>
-              <Route path="/result" component={Result} exact/>
+              <Route path="/" component={Home} exact/>
+              <Route path="/conception" component={Conception} />
+              <Route path="/observation" component={Observation} />
+              <Route path="/prototyping" component={Prototyping} />
+              <Route path="/evaluation" component={Evaluation} />
+              <Route path="/result" component={Result} />
           </Switch>
       </main>
   );
