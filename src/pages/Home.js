@@ -14,7 +14,7 @@ function Home() {
                 <img src={Group}></img>
                 <div className="quote">
                     <img src={Idea}></img>
-                    <p>To create a perfect design, we must look into our hearts" <br></br>-Sean Low Jun Kai</p>
+                    <p>"To create a perfect design, we must look into our hearts" <br></br>-Sean Low Jun Kai</p>
                 </div>
             </div>
             <div className="homecontent">
