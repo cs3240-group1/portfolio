@@ -13,7 +13,7 @@ function App() {
   return (
       <main>
           <Switch>
-              <Route path="/" component={Home} exact />
+              <Route path="" component={Home} exact/>
               <Route path="/conception" component={Conception} exact/>
               <Route path="/observation" component={Observation} exact/>
               <Route path="/prototyping" component={Prototyping} exact/>
