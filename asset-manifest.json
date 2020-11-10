@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1f867901.chunk.css",
-    "main.js": "/portfolio/static/js/main.5e810218.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5e810218.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.72742b6d.chunk.css",
+    "main.js": "/portfolio/static/js/main.33ffb1f0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.33ffb1f0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.d4d4f36c.chunk.js": "/portfolio/static/js/2.d4d4f36c.chunk.js",
-    "static/js/2.d4d4f36c.chunk.js.map": "/portfolio/static/js/2.d4d4f36c.chunk.js.map",
+    "static/js/2.8c2ed677.chunk.js": "/portfolio/static/js/2.8c2ed677.chunk.js",
+    "static/js/2.8c2ed677.chunk.js.map": "/portfolio/static/js/2.8c2ed677.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3cbaf6902040b60cceb65e1d78697103.js": "/portfolio/precache-manifest.3cbaf6902040b60cceb65e1d78697103.js",
+    "precache-manifest.8f74ff5dbd6a03484b03ee1be86988f6.js": "/portfolio/precache-manifest.8f74ff5dbd6a03484b03ee1be86988f6.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1f867901.chunk.css.map": "/portfolio/static/css/main.1f867901.chunk.css.map",
-    "static/js/2.d4d4f36c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d4d4f36c.chunk.js.LICENSE.txt",
+    "static/css/main.72742b6d.chunk.css.map": "/portfolio/static/css/main.72742b6d.chunk.css.map",
+    "static/js/2.8c2ed677.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8c2ed677.chunk.js.LICENSE.txt",
     "static/media/Group1.png": "/portfolio/static/media/Group1.c95d24a0.png",
+    "static/media/backpain.jpg": "/portfolio/static/media/backpain.98e4f02e.jpg",
+    "static/media/demographicssurvey1.png": "/portfolio/static/media/demographicssurvey1.575482db.png",
+    "static/media/demographicssurvey2.png": "/portfolio/static/media/demographicssurvey2.5633fed2.png",
     "static/media/idea.png": "/portfolio/static/media/idea.7775c7e8.png",
-    "static/media/logo.png": "/portfolio/static/media/logo.89b69e45.png"
+    "static/media/interview.jpg": "/portfolio/static/media/interview.8469d79d.jpg",
+    "static/media/introductionpic.jpg": "/portfolio/static/media/introductionpic.f98900ce.jpg",
+    "static/media/logo.png": "/portfolio/static/media/logo.89b69e45.png",
+    "static/media/problemsurvey1.png": "/portfolio/static/media/problemsurvey1.8b5431f7.png",
+    "static/media/reasonsurvey1.png": "/portfolio/static/media/reasonsurvey1.a7fa27e8.png",
+    "static/media/student.jpg": "/portfolio/static/media/student.6af192ca.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.d4d4f36c.chunk.js",
-    "static/css/main.1f867901.chunk.css",
-    "static/js/main.5e810218.chunk.js"
+    "static/js/2.8c2ed677.chunk.js",
+    "static/css/main.72742b6d.chunk.css",
+    "static/js/main.33ffb1f0.chunk.js"
   ]
 }
