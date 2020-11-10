@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { FcConferenceCall, FcOnlineSupport, FcApproval, FcList } from "react-icons/fc";
+import { FcConferenceCall, FcOnlineSupport, FcApproval, FcList, FcRating } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 import "./style.css";
 
@@ -11,6 +11,8 @@ import DemographicsSurvey1 from '../components/images/demographicssurvey1.png';
 import DemographicsSurvey2 from '../components/images/demographicssurvey2.png';
 import ReasonSurvey1 from "../components/images/reasonsurvey1.png";
 import ProblemSurvey1 from "../components/images/problemsurvey1.png";
+import Kyle from "../components/images/kyle.png";
+import Karen from "../components/images/karen.png";
 
 function Userstudy() {
     return (
@@ -20,8 +22,8 @@ function Userstudy() {
                 <h2>Demographics <FcConferenceCall /></h2>
                 <p className="subtitle">Who did we do our study on?</p>
                 <p>
-                Sedentary lifestyle particularly prevalent amongst working adults and young adults in the midst of schooling. 
-                As mentioned earlier, COVID-19 resulted in many of these people to work from home and sit in 
+                Sedentary lifestyle is particularly prevalent amongst working adults and young adults in the midst of schooling. 
+                As mentioned earlier, COVID-19 resulted in many of these people having to work from home and sit in 
                 front of their desks for long periods of time. 
                 </p>
                 <img className="contentimage" src={Student}></img>
@@ -41,7 +43,7 @@ function Userstudy() {
                     }}>Office workers and university students.</h3>
                 </div>
                 <p>We specifically chose these people as our main demographics because we deduced that working / studying from home 
-                is most likely to result in people adopting a sedentary lifestyle. Our main goal in this user study process would be to 
+                is more likely to result in people adopting a sedentary lifestyle. Our main goal in this user study process would be to 
                 find out the prevalence of sedentary lifestyle in our target demographics, and also to find out 
                 what causes this lifestyle and problems that it brings.</p>
             </div>
@@ -84,16 +86,10 @@ function Userstudy() {
                 </p>
                 <h3>Demographics</h3>
                 <p>Most of the respondents are between the age of 19 to 25 and most are students with a few office managers and graphic designers.</p>
-                <div style={{
-                    display: 'flex',
-                    alignItems: "center"
-                }}>
-                    <img className="contentimage" src={DemographicsSurvey1}></img>
-                    <img style={{
-                        marginLeft: "30px"
-                    }} className="contentimage" src={DemographicsSurvey2}></img>
-                </div>
-                <p className="caption">Survey result showing the demographics of our survey</p>
+                <img className="contentimage" src={DemographicsSurvey1}></img>
+                <p className="caption">Survey result showing the age demographics</p>
+                <img className="contentimage" src={DemographicsSurvey2}></img>
+                <p className="caption">Survey result showing the occupation demographics</p>
                 <h3>Reason for being desk-bound</h3>
                 <p>
                     We asked this question to confirm our findings from the interview that work is the main reason for people to become desk-bound.
@@ -111,8 +107,28 @@ function Userstudy() {
                     shows that the problem that we are trying to solve occurs in most people.
                 </p>
             </div>
+            <div className="content">
+                <h2>User persona <FcRating /></h2>
+                <p className="subtitle">What are the final findings from our study?</p>
+                <p>We created persona to represent the different user types that we have which are university student, and office worker. This way, we can formulate 
+                solution based on the personas that we have created to prevent us from going off track. This should help us gain a better understanding of our users' needs, 
+                experienced, behaviors, and goals.
+                </p>
+                <h3>Kyle persona</h3>
+                <img className="contentimage" src={Kyle} style={{
+                    width: '100%',
+                    height: 'auto'
+                }}></img>
+                <p className="caption">Kyle, university student persona</p>
+                <h3>Karen persona</h3>
+                <img className="contentimage" src={Karen} style={{
+                    width: '100%',
+                    height: 'auto'
+                }}></img>
+                <p className="caption">Karen, office worker persona</p>
+            </div>
             <div className="buttonContainer">
-                <h4>Check out how we prototype our solution</h4>
+                <h4>Check out how we prototype our solution!</h4>
                 <Link to="/portfolio/prototyping"><button>Creating prototypes</button></Link>
             </div>
             <Footer />

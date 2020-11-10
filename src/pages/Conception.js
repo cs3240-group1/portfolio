@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import "./style.css";
 
 import IntroPic1 from "../components/images/introductionpic.jpg";
-import Backpain from "../components/images/backpain.jpg";
 
 function Conception() {
     return (

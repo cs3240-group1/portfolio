@@ -17,6 +17,7 @@ function Header() {
                 <Link to="/portfolio/prototyping"><h1>Prototyping</h1></Link>
                 <Link to="/portfolio/evaluation"><h1>Evaluation</h1></Link>
                 <Link to="/portfolio/result"><h1>Result</h1></Link>
+                <Link to="/portfolio/aboutus"><h1>About Us</h1></Link>
             </div>
         </div>
     );

@@ -91,6 +91,7 @@ p {
 }
 
 .contentimage {
+    max-width: 100%;
     width: auto;
     height: 250px;
     border-radius: 10px;
