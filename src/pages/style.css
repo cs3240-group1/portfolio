@@ -36,28 +36,88 @@
     margin-bottom: 0px;
 }
 
-.homecontent {
+.intromessage {
     text-align: center;
     padding-top: 10px;
 }
 
-.homecontent h1 {
+h1 {
     color: white;
     font-weight: 700;
     font-size: 2.2em;
 }
 
-.homecontent p {
+h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0px;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-size: 1.3em;
+}
+
+h5 {
     font-size: 1.5em;
     margin: auto;
-    width: 600px;
+    width: 800px;
     color: white;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-weight: 400;
 }
 
-.homecontent button {
+p {
+    font-size: 1em;
+    color: white;
+}
+
+.subtitle {
+    font-size: 0.8em;
+    color: white;
+    margin-top: 0px;
+}
+
+.caption {
+    font-size: 0.7em;
+    color: rgb(202, 202, 202);
+    margin-top: 0px;
+}
+
+.contentimage {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.content {
+    width: 60%;
+    margin-left: 20%; 
+    margin-right: 20%;
+    background-color: #2A1F2D;
+    padding: 20px 30px 20px 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: -2.5px 2.5px 1px #2A1F2D;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+}
+
+button {
     font-size: 1.2em;
+    margin-left: 30px;
     padding: 20px 40px 20px 40px;
     border-radius: 5px;
     border: none;
@@ -65,4 +125,8 @@
     font-weight: 700;
     background-color: #5B6C5D;
     box-shadow: 1.5px 1.5px 5px black;
+}
+
+button:hover {
+    cursor: pointer;
 }

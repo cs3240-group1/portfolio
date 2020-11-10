@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
-import './Home.css';
+import './style.css';
 
 import Group from '../components/images/Group1.png';
 import Idea from '../components/images/idea.png';
@@ -17,12 +18,15 @@ function Home() {
                     <p>"To create a perfect design, we must look into our hearts" <br></br>-Sean Low Jun Kai</p>
                 </div>
             </div>
-            <div className="homecontent">
+            <div className="intromessage">
                 <h1>Welcome to our cozy little website!</h1>
-                <p>Your journey towards learning how S.T.O.P.S was created starts here. We hope that you have an enjoyable time here and
-                hopefully learn more about how we created our project.</p>
-                <Link to="/portfolio/conception"><button>Begin Journey</button></Link>
+                <h5>Your journey towards learning how S.T.O.P.S was created starts here. We hope that you have an enjoyable time here and
+                hopefully learn more about how we created our project.</h5>
             </div>
+            <div className="buttonContainer">
+                <Link to="/portfolio/conception"><button>Begin journey</button></Link>
+            </div>
+            <Footer />
         </div> 
     );
 }
